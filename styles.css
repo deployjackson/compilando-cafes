@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contenido {
+  flex-grow: 1;
+}
+
+body {
+  background-color: #f1e4d0; 
+  color: #1e1e1e; 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 2rem;
+  /* background-image: url('img/textura-papel.jpg'); */
+  background-size: cover;
+}
+
+/* Encabezado y navegación */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #2d1e14;
+  letter-spacing: 2px;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 0.8rem;
+  color: #fffaf2;
+  background-color: #6b4125;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #d0b892;
+  color: #6b4125;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  border-left: 3px solid #3b291e;
+}
+
+h2, h3 {
+  color: #2d1e14;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #3b291e;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #5f4b3b;
+}
+
+#hero img {
+  display: block;
+  max-width: 300px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Ajustes del logo */
+.logo {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 1rem auto;
+}
+
+/* Contenedores */
+.contenedor {
+  background-color: #5d3d28;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  color: #fffaf2;
+  font-family: 'Courier New', Courier, monospace;
+
+  /* Simulación de borde pixelado */
+  outline: 4px solid #000;
+  outline-offset: -10px;
+  box-shadow:
+    4px 4px 0 #000,
+    8px 8px 0 #3b291e;
+  border-radius: 0;
+}
+
+.contenedor h2, 
+.contenedor h3, 
+.contenedor a {
+  color: #fffaf2;
+}
+
+
+.proyecto {
+  background-color: #5a3927;
+  padding: 1.5rem;
+  border: 3px solid #1d0f0b;
+  box-shadow: 4px 4px 0 #000;
+  margin: 2rem auto;
+  max-width: 900px;
+  color: #fffaf2;
+  font-family: 'Courier New', Courier, monospace;
+  border-left: 3px solid #a18265; 
+}
+
+.proyecto h3 {
+  color: #fffaf2;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+
+.contenido-proyecto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.texto {
+  flex: 1 1 60%;
+}
+
+.texto h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.texto a {
+  color: #fffaf2;
+  text-decoration: underline;
+}
+
+.logo_p1 img {
+  max-width: 120px;
+  height: 120px;
+  display: block;
+}
